@@ -32,7 +32,7 @@ export default {
         </tr>
       </thead>
       <tbody>
-        <tr v-for="juego in juegos" :key="juego.codigo" :style="{ backgroundColor: juego.colorFondo }">
+        <tr v-for="juego in juegos">
           <!-- Recorre cada juego en el estado 'juegos' y aplica el color de fondo especificado -->
           <td>{{ juego.codigo }}</td> <!-- Muestra el código del juego -->
           <td>{{ juego.nombre }}</td> <!-- Muestra el nombre del juego -->
